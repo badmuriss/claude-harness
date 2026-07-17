@@ -1,0 +1,13 @@
+# curated harness: only what's listed
+/*
+/commands/*
+/agents/*
+!/.gitignore
+!/README.md
+!/install.sh
+!/commands/
+!/commands/spec.md
+!/commands/impl.md
+!/agents/
+!/agents/fast-worker.md
+!/agents/deep-reasoner.md
