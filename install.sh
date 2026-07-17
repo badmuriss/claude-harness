@@ -11,4 +11,5 @@ cp "$SRC"/agents/*.md "$DIR/agents/"
 npx -y skills add badmuriss/incredibly-pretty-websites -g -y
 npx -y skills add badmuriss/unslop -g -y
 npx -y skills add mattpocock/skills --skill grill-with-docs -g -y
+npx -y skills add badmuriss/site-audit -g -y
 echo "done — /spec and /impl available in Claude Code"
