@@ -12,4 +12,5 @@ npx -y skills add badmuriss/incredibly-pretty-websites -g -y
 npx -y skills add badmuriss/unslop -g -y
 npx -y skills add mattpocock/skills --skill grill-with-docs -g -y
 npx -y skills add badmuriss/site-audit -g -y
+npx -y skills add vercel-labs/agent-skills --skill vercel-react-best-practices -g -y
 echo "done — /spec and /impl available in Claude Code"

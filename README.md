@@ -12,6 +12,7 @@ The curated core of my Claude Code setup: a plan → implement workflow plus the
   - [unslop](https://github.com/badmuriss/unslop) — strip AI tells from prose
   - [grill-with-docs](https://github.com/mattpocock/skills) (mattpocock) — decision grilling that updates docs inline
   - [site-audit](https://github.com/badmuriss/site-audit) — live-site audit: UX walkthrough + on-page SEO + Core Web Vitals, hard gates
+  - [vercel-react-best-practices](https://github.com/vercel-labs/agent-skills) (Vercel) — 70 React/Next performance rules: waterfalls, bundle size, RSC
 
 ## Install
 
