@@ -5,7 +5,7 @@ The curated core of my Claude Code setup: a plan → implement workflow plus the
 ## What's in it
 
 - **`/spec <change>`** — plans with an architecture lens (deep modules, deletion test, YAGNI), grills the decisions with you (`grill-with-docs`), and emits an openspec change (`proposal.md`, `design.md`, self-contained `tasks.md`).
-- **`/impl <change>`** — dumb dispatcher: delegates each task to subagents (`fast-worker`/Sonnet for mechanical work, `deep-reasoner`/Opus for reasoning), verifies diffs, never writes bulk code itself.
+- **`/impl <change>`** — dumb dispatcher: delegates each task to subagents (`fast-worker` on the fast tier for mechanical work, `deep-reasoner` on the frontier tier for reasoning), verifies diffs, never writes bulk code itself. It dispatches even when the orchestrator is itself frontier-tier — the win is parallelism and a clean context per task, not capability.
 - **`agents/`** — the two subagent definitions `/impl` dispatches to.
 - **Skills it leans on** (installed via [skills](https://skills.sh)):
   - [incredibly-pretty-websites](https://github.com/badmuriss/incredibly-pretty-websites) — non-AI-slop frontend
