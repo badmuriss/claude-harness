@@ -11,3 +11,6 @@
 !/agents/
 !/agents/fast-worker.md
 !/agents/deep-reasoner.md
+!/docs/
+/docs/*
+!/docs/banner.png
